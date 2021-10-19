@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import "./Header.css";
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const handleToggle = () => {
     setIsActive(!isActive);
   };
- 
 
   return (
     <header className="header">
-      <Link to="/" class="logo">
-        {" "}
-        <i class="fas fa-heartbeat"></i> medcare.{" "}
+      <Link to="/" className="logo">
+        <i class="fas fa-heartbeat"></i> medcare.
       </Link>
 
       <nav class={isActive ? "navbar active" : "navbar"}>
-        <Link to="#home">home</Link>
-        <Link to="#services">services</Link>
-        <Link to="#about">about</Link>
-        <Link to="#doctors">doctors</Link>
-        <Link to="#book">book</Link>
-        <Link to="#review">review</Link>
-        <Link to="#blogs">blogs</Link>
-        
+        <HashLink  to="/home#home">
+          home
+        </HashLink>
+        <HashLink  to="/home#services">Services</HashLink>
+        <Link to="/home#about">About</Link>
+        <Link to="/home#doctors">Doctors</Link>
+        <Link to="/home#book">Book</Link>
+        <Link to="/home#review">Review</Link>
+        <Link to="/home#blogs">Blogs</Link>
       </nav>
       <div
         onClick={handleToggle}

@@ -14,9 +14,9 @@ const Footer = () => {
         <ContactBox />
         <FollowBox />
       </div>
-      <div class="credit">
-        {" "}
-        created by <span>mr. web designer</span> | all rights reserved{" "}
+      <div className="credit">
+       
+        created by <span> tanjil ahmed</span> || all rights reserved
       </div>
     </footer>
   );
