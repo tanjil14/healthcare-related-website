@@ -18,11 +18,11 @@ const Header = () => {
         <HashLink  to="/home#home">
           home
         </HashLink>
-        <HashLink  to="/home#services">Services</HashLink>
-        <Link to="/home#about">About</Link>
-        <Link to="/home#doctors">Doctors</Link>
-        <Link to="/home#book">Book</Link>
-        <Link to="/home#review">Review</Link>
+        <HashLink to="/home#services">Services</HashLink>
+        <HashLink to="/home#about">About</HashLink>
+        <HashLink to="/home#doctors">Doctors</HashLink>
+        <HashLink to="/home#book">Book</HashLink>
+        <HashLink to="/home#review">Review</HashLink>
         <Link to="/home#blogs">Blogs</Link>
       </nav>
       <div

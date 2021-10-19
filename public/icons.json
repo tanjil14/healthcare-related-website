@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "quantity": 140,
+    "title": "doctors at work",
+    "logo": "fas fa-user-md"
+  },
+  {
+    "id": 2,
+    "quantity": 1040,
+    "title": "satisfied patients",
+    "logo": "fas fa-users"
+  },
+  {
+    "id": 3,
+    "quantity": 500,
+    "title": "bed facility",
+    "logo": "fas fa-procedures"
+  },
+  {
+    "id": 4,
+    "quantity": 80,
+    "title": "available hospitals",
+    "logo": "fas fa-hospital"
+  }
+]

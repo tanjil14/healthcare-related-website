@@ -6,13 +6,15 @@ import Header from './Pages/Home/Header/Header';
 import  NotFound  from './Pages/NotFound/NotFound';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Services/Services';
+import AuthProvider from './Context/AuthProvider';
 function App() {
   return (
     <header className="Ap">
+      {/* <AuthProvider>  */}
       <Router>
         <Header/>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
              <Home/>
           </Route>
           <Route path="/home">
@@ -27,7 +29,7 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
-      
+      {/* </AuthProvider> */}
     </header>
   );
 }
