@@ -5,14 +5,13 @@ import "./Login.css";
 const Login = () => {
   const location = useLocation();
   const history = useHistory();
-  const redirect_url = location.state?.from || "/service";
+  const redirect_url = location.state?.from || "/services";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { signInUsingGoogle, logInWithEmailPassword, error,setUser,setIsLoading } = useAuth();
   const handleSubmit = (e) => {
     e.preventDefault();
     logInWithEmailPassword(email, password);
-    console.log("Hi");
   };
   const handleEmail = (e) => {
     setEmail(e.target.value);

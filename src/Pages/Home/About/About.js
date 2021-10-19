@@ -12,9 +12,9 @@ const About = () => {
         </div>
         <div className="content">
         <h3>we take care of your healthy life</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
-            <Link to="#" className="btn"> learn more <span className="fas fa-chevron-right"></span> </Link>
+        <p>Largest network of the world’s finest and brightest medical experts who provide compassionate care using outstanding expertise and advanced technology.</p>
+            <p>Combining the best specialists and equipment to provide you nothing short of the best in healthcare</p>
+            <Link to="/home" className="btn"> learn more <span className="fas fa-chevron-right"></span> </Link>
         </div>
             </div>
         </section>

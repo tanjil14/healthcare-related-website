@@ -22,13 +22,13 @@ const useFirebase = () => {
   const signInUsingGoogle = () => {
     setIsLoading(true);
     const googleProvider = new GoogleAuthProvider();
-   return signInWithPopup(auth, googleProvider);
+    return signInWithPopup(auth, googleProvider);
   };
   const logOut = () => {
-    signOut(auth).then(() => {
-      console.log("Logout");
-    })
-    .finally(()=>isLoading(false));
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => {})
+      .finally(() => setIsLoading(false));
   };
   const logInWithEmailPassword = (email, password) => {
     signInWithEmailAndPassword(auth, email, password)
@@ -72,7 +72,7 @@ const useFirebase = () => {
     logInWithEmailPassword,
     error,
     isLoading,
-    setIsLoading
+    setIsLoading,
   };
 };
 export default useFirebase;

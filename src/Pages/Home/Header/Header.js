@@ -13,10 +13,10 @@ const Header = () => {
   return (
     <header className="header">
       <Link to="/" className="logo">
-        <i class="fas fa-heartbeat"></i> medcare.
+        <i className="fas fa-heartbeat"></i> medcare.
       </Link>
 
-      <nav class={isActive ? "navbar active" : "navbar"}>
+      <nav className={isActive ? "navbar active" : "navbar"}>
         <HashLink to="/home#home">home</HashLink>
         <HashLink to="/home#services">Services</HashLink>
         <HashLink to="/home#about">About</HashLink>

@@ -1,67 +1,47 @@
 import React from "react";
 import "./Review.css";
-import img1 from "../../../image/pic-1.png"
+
+const reviewInfo = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/FW9fmqh/pic-1.png",
+    name: "john deo",
+    des: "Largest network of the world’s finest and brightest medical experts who provide compassionate care using outstanding expertise and advanced technology.",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/N9Rhssr/pic-2.png",
+    name: "Lusia",
+    des: "Largest network of the world’s finest and brightest medical experts who provide compassionate care using outstanding expertise and advanced technology.",
+  },
+  {
+    id: 1,
+    img: "https://i.ibb.co/wKvNmn7/pic-3.png",
+    name: "Adam",
+    des: "Largest network of the world’s finest and brightest medical experts who provide compassionate care using outstanding expertise and advanced technology.",
+  },
+];
 const Review = () => {
   return (
     <section className="review" id="review">
       <h1 className="heading">
-        {" "}
-        client's <span>review</span>{" "}
+        client's <span>review</span>
       </h1>
-      <div class="box-container">
-        <div class="box">
-          <img src={img1} alt="" />
-          <h3>john deo</h3>
-          <div className="stars">
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star-half-alt"></i>
+      <div className="box-container">
+        {reviewInfo.map((review) => (
+          <div key={Math.random()} className="box">
+            <img src={review.img} alt="" />
+            <h3>{review.name}</h3>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star-half-alt"></i>
+            </div>
+            <p className="text">{review.des}</p>
           </div>
-          <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis
-            libero nobis rem numquam nesciunt alias sapiente minus voluptatem,
-            reiciendis consequuntur optio dolorem!
-          </p>
-        </div>
-
-        <div className="box">
-          <img src="image/pic-2.png" alt="" />
-          <h3>john deo</h3>
-          <div className="stars">
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star-half-alt"></i>
-          </div>
-          <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis
-            libero nobis rem numquam nesciunt alias sapiente minus voluptatem,
-            reiciendis consequuntur optio dolorem!
-          </p>
-        </div>
-
-        <div className="box">
-          <img src="image/pic-3.png" alt="" />
-          <h3>john deo</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis
-            libero nobis rem numquam nesciunt alias sapiente minus voluptatem,
-            reiciendis consequuntur optio dolorem!
-          </p>
-        </div>
+        ))}
       </div>
     </section>
   );

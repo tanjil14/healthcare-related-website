@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const FollowBox = () => {
     return (
-        <div class="box">
+        <div className="box">
         <h3>follow us</h3>
-        <Link to="#"> <i class="fab fa-facebook-f"></i> facebook </Link>
-        <Link to="#"> <i class="fab fa-twitter"></i> twitter </Link>
-        <Link to="#"> <i class="fab fa-twitter"></i> twitter </Link>
-        <Link to="#"> <i class="fab fa-instagram"></i> instagram </Link>
-        <Link to="#"> <i class="fab fa-linkedin"></i> linkedin </Link>
-        <Link to="#"> <i class="fab fa-pinterest"></i> pinterest </Link>
+        <Link to="#"> <i className="fab fa-facebook-f"></i> facebook </Link>
+        <Link to="#"> <i className="fab fa-twitter"></i> twitter </Link>
+        <Link to="#"> <i className="fab fa-twitter"></i> twitter </Link>
+        <Link to="#"> <i className="fab fa-instagram"></i> instagram </Link>
+        <Link to="#"> <i className="fab fa-linkedin"></i> linkedin </Link>
+        <Link to="#"> <i className="fab fa-pinterest"></i> pinterest </Link>
     </div>
     );
 };

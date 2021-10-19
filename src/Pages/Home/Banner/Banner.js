@@ -12,11 +12,10 @@ const Banner = () => {
         <div className="content">
           <h3>stay safe, stay healthy</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed
-            autem vero? Magnam, est laboriosam!
+          “Bringing healthcare of International standards within the reach of every individual.”
           </p>
-          <Link to="#" class="btn">
-            contact us <span class="fas fa-chevron-right"></span>
+          <Link to="/home" className="btn">
+            contact us <span className="fas fa-chevron-right"></span>
           </Link>
         </div>
       </section>
