@@ -26,6 +26,10 @@
 .header .navbar a:hover {
   color: var(--green);
 }
+.header span{
+   padding-left: 1rem;
+   font-weight: bold;
+}
 #menu-btn {
   font-size: 2.5rem;
   border-radius: 0.5rem;

@@ -1,0 +1,37 @@
+.form {
+  margin-top: 15rem;
+  margin: 15rem auto;
+  width: 50%;
+}
+.form form {
+  background: #fff;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.form form h3 {
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.form form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+.form form .btn {
+  padding: 1rem 4rem;
+  margin-left: 1rem;
+}
+@media (max-width: 576px) {
+  .form {
+    width: 90%;
+  }
+}
