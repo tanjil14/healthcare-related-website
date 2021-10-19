@@ -11,7 +11,7 @@ const Icons = () => {
   return (
     <section className="icons-container">
       {icons.map((icon) => (
-        <Icon key={icon.id} icon={icon} />
+        <Icon key={Math.random()} icon={icon} />
       ))}
     </section>
   );

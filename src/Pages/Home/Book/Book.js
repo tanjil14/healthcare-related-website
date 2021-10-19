@@ -16,7 +16,7 @@ const Book = () => {
           <input type="text" placeholder="your name" className="box" />
           <input type="number" placeholder="your number" className="box" />
           <input type="email" placeholder="your email" className="box" />
-          <input type="date" class="box" />
+          <input type="date" className="box" />
           <input type="submit" value="book now" className="btn" />
         </form>
       </div>

@@ -26,15 +26,15 @@ const Register = () => {
           onBlur={handleEmail}
           type="email"
           placeholder="your email"
-          class="box"
+          className="box"
         />
         <input
           onBlur={handlePassword}
           type="password"
           placeholder="your password"
-          class="box"
+          className="box"
         />
-        <input type="submit" value="Register" class="btn " />
+        <input type="submit" value="Register" className="btn " />
         <p style={{ marginTop: "1rem", fontSize: "2rem" }}>
           Already Register?
           <span style={{ textDecoration: "underline" }}>

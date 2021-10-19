@@ -1,19 +1,21 @@
-// import React from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-// const Doctor = () => {
-//     return (
-//         <div class="box">
-//         <img src="image/doc-1.jpg" alt=""/>
-//         <h3>john deo</h3>
-//         <span>expert doctor</span>
-//         <div class="share">
-//             <a href="#" class="fab fa-facebook-f"></a>
-//             <a href="#" class="fab fa-twitter"></a>
-//             <a href="#" class="fab fa-instagram"></a>
-//             <a href="#" class="fab fa-linkedin"></a>
-//         </div>
-//         </div>
-//     );
-// };
+const Doctor = ({doctor}) => {
+    const {name,title,photo}=doctor;
+    return (
+        <div className="box">
+        <img src={photo} alt=""/>
+        <h3>{name}</h3>
+        <span>{title}</span>
+        <div className="share">
+            <Link to="#" className="fab fa-facebook-f"></Link>
+            <Link to="#" className="fab fa-twitter"></Link>
+            <Link to="#" className="fab fa-instagram"></Link>
+            <Link to="#" className="fab fa-linkedin"></Link>
+        </div>
+        </div>
+    );
+};
 
 export default Doctor;

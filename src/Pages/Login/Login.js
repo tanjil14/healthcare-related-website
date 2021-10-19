@@ -35,25 +35,25 @@ const Login = () => {
           onBlur={handleEmail}
           type="email"
           placeholder="your email"
-          class="box"
+          className="box"
         />
         <input
           onBlur={handlePassword}
           type="password"
           placeholder="your password"
-          class="box"
+          className="box"
         />
         {error && (
           <p style={{ color: "red", fontSize: "1.5rem" }}>
             user name or password is incorrect!please try again.
           </p>
         )}
-        <input type="submit" value="login" class="btn" />
+        <input type="submit" value="login" className="btn" />
         <input
           onClick={handleGoogleSignIn}
           type="button"
           value="login with google"
-          class="btn"
+          className="btn"
         />
         <p style={{ marginTop: "1rem", fontSize: "2rem" }}>
           Didn't register?

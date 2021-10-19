@@ -1,0 +1,13 @@
+.service-details-box {
+  margin: 10rem auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2.5rem;
+  width: 50%;
+}
+.service-details-img {
+  width: 50%;
+}

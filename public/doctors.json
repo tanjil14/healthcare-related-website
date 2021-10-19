@@ -1,0 +1,38 @@
+[
+  {
+    "id": 10,
+    "name": "Dr Rooma Shinha",
+    "title": "expert doctor",
+    "photo": "https://i.ibb.co/0fsRxks/doc-1.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Dr A G K Gokhale",
+    "title": "MS,MCH(CMC Vellore)",
+    "photo": "https://i.ibb.co/1872PZn/doc-2.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Dr Alok Ranjan",
+    "title": "MBBS; MCh (Neurosurgery)",
+    "photo": "https://i.ibb.co/k0RDqjW/doc-3.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Dr K J Reddy",
+    "title": "MBBS; MS(PGI);FRCS(ENG)",
+    "photo": "https://i.ibb.co/G2rZgMx/doc-4.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Dr P Vijay",
+    "title": "MBBS; MD(Radiotherapy)",
+    "photo": "https://i.ibb.co/CwMG7RT/doc-5.jpg"
+  },
+  {
+    "id": 60,
+    "name": "john deo",
+    "title": "MBBS, MD, DNB, FICOG & MICOG",
+    "photo": " https://i.ibb.co/txKHxNZ/doc-6.jpg"
+  }
+]
